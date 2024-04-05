@@ -19,7 +19,9 @@ const Product = (props) => {
     <div>
         <Navbar />
     <div className="d-flex ">
+
         <Card image ={img1} name='Niki' description='Alpha male' price={1600} />
+        
         <Card image ={img2} name='puma' description='Black leandder' price={1250} />
         <Card image ={img5} name='Fathers' description='Honour is soul' price={600} />
         <Card image ={img3} name='dummy' description='dummy description' price={600} />
